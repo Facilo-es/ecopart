@@ -1,0 +1,568 @@
+# Copyright (C) 2026 Facilo
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ecopart – Éco-participation for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ecopart\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-15T17:20:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ecopart\n"
+
+#. Plugin Name of the plugin
+#: ecopart.php
+msgid "Ecopart – Éco-participation for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: ecopart.php
+msgid "https://wordpress.org/plugins/ecopart/"
+msgstr ""
+
+#. Description of the plugin
+#: ecopart.php
+msgid "Show the French éco-participation (DEEE, furniture) under prices, in the cart and on orders. Coupons never reduce it."
+msgstr ""
+
+#. Author of the plugin
+#: ecopart.php
+msgid "Facilo"
+msgstr ""
+
+#. Author URI of the plugin
+#: ecopart.php
+msgid "https://facilo.es"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:40
+#: includes/class-ecopart-admin.php:41
+#: includes/class-ecopart-admin.php:326
+#: includes/class-ecopart-product-fields.php:39
+msgid "Éco-participation"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:55
+msgid "Settings"
+msgstr ""
+
+#. translators: 1: amount with currency, 2: VAT rate.
+#. translators: 1: amount, 2: tax rate.
+#: includes/class-ecopart-admin.php:95
+#: includes/class-ecopart-product-fields.php:84
+#, php-format
+msgid "= %1$s TTC at %2$s %%"
+msgstr ""
+
+#. translators: 1: amount with currency, 2: VAT rate.
+#. translators: 1: amount, 2: tax rate.
+#: includes/class-ecopart-admin.php:97
+#: includes/class-ecopart-product-fields.php:84
+#, php-format
+msgid "= %1$s HT at %2$s %%"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:181
+msgid "You are not allowed to change these settings."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:271
+msgid "Éco-participation sections"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:283
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:305
+msgid "Overview"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:306
+msgid "Display"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:307
+msgid "Help"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:308
+msgid "Pro"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:328
+msgid "What you sell"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:328
+msgid "How it looks"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:328
+#: includes/class-ecopart-admin.php:693
+msgid "Where it shows"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:329
+msgid "Setup steps"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:395
+msgid "Size"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:397
+msgid "Small"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:398
+msgid "Normal"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:411
+msgid "Label style"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:451
+msgid "Electrical and electronic equipment"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:451
+msgid "Appliances, electronics, lighting, tools"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:452
+msgid "Furniture, bedding and decoration textiles"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:452
+msgid "Chairs, tables, mattresses, curtains"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:453
+msgid "Other products with an eco fee"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:453
+msgid "Any other product your supplier bills a fee on"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:459
+msgid "What do you sell?"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:460
+msgid "New products get this fee type. You can change it on any product."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:470
+#: includes/class-ecopart-admin.php:489
+msgid "Continue"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:477
+msgid "How should it look?"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:478
+msgid "Your shoppers see the fee right under the price, in the cart and on the invoice."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:484
+#: includes/class-ecopart-admin.php:684
+msgid "Show a ? link that explains the fee"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:488
+#: includes/class-ecopart-admin.php:503
+msgid "Back"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:496
+msgid "Where should it show?"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:497
+msgid "Enter product prices that already include the éco-participation, as in shops."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:504
+#: includes/class-ecopart-admin.php:646
+msgid "Add my first amount"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:505
+msgid "Importing a supplier file? See Pro"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:508
+msgid "Skip setup and keep these settings"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:520
+#: includes/class-ecopart-admin.php:549
+msgid "Product page"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:521
+msgid "Shop and category pages"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:522
+msgid "Cart and checkout"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:523
+msgid "Orders, emails and invoices"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:523
+#: includes/class-ecopart-admin.php:585
+msgid "Always on, so every order keeps its record"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:547
+msgid "Preview with a sample order"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:549
+#: includes/class-ecopart-admin.php:564
+msgid "Hidden"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:555
+msgid "Sample product"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:556
+#: includes/class-ecopart-admin.php:569
+msgid "Armchair"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:558
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:564
+msgid "Cart on a phone"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:566
+msgid "Cart"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:574
+msgid "Lamp"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:578
+msgid "Coupon: BIENVENUE10"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:580
+msgid "Total"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:585
+msgid "Order email and invoice"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:587
+msgid "Thank you for your order"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:589
+msgid "Armchair × 1"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:591
+msgid "Lamp × 2"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:619
+msgid "product with a fee"
+msgid_plural "products with a fee"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-ecopart-admin.php:623
+#: includes/class-ecopart-admin.php:630
+msgid "Show them"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:626
+msgid "product without a fee"
+msgid_plural "products without a fee"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-ecopart-admin.php:633
+msgid "fee type in use"
+msgid_plural "fee types in use"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-ecopart-admin.php:645
+msgid "No amounts yet. Open a product and fill in Éco-participation, or import your supplier's file with Pro."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:646
+msgid "See Pro"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:650
+msgid "What your shoppers see"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:651
+msgid "Edit display"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:664
+msgid "Under the price, first style"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:665
+msgid "Under the price, second style"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:666
+msgid "Cart item, quantity 1"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:667
+msgid "Cart item, quantity over 1"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:668
+msgid "Order line (emails, invoices)"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:669
+msgid "Coupon note"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:670
+msgid "\"?\" link label"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:671
+msgid "Explanation text"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:672
+msgid "Explanation link text"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:679
+msgid "Look"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:688
+msgid "Link in the explanation (optional)"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:697
+msgid "Amounts and coupons"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:699
+msgid "Amounts are entered"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:700
+msgid "Without VAT (HT)"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:701
+msgid "With VAT (TTC)"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:703
+msgid "Barèmes are HT. Enter HT and the plugin adds VAT at the product's rate."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:705
+msgid "Fee type for new products"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:713
+msgid "Coupons never reduce the éco-participation"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:713
+msgid "On by default. The cart shows a short note when a coupon touches an item with a fee."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:717
+msgid "Shopper texts"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:718
+msgid "These are in French whatever your admin language. {fee}, {qty} and {total} are filled in for you. Empty a box to go back to the default."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:731
+msgid "Uninstall"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:733
+msgid "Remove all data on uninstall"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:733
+msgid "Off by default: product amounts and the records on past orders stay, because orders are accounting records."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:737
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:738
+msgid "Run the setup again"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:760
+msgid "What the plugin does"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:761
+msgid "It shows the amounts you enter: under the price, in the cart and checkout, and on orders, emails and invoices. It doesn't decide the amounts. Enter product prices that already include the éco-participation, as in shops."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:764
+msgid "Where amounts come from"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:765
+msgid "Your supplier's invoice or file shows the amount for each product. If you import products yourself, use your éco-organisme's barème:"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:773
+msgid "HT or TTC"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:774
+msgid "Barèmes are HT. Enter HT and the plugin adds VAT at the product's rate. If you prefer to enter amounts with VAT, change it in Display."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:777
+msgid "Coupons"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:778
+msgid "The éco-participation is passed on in full, so a discount can't reduce it. With this setting on, coupons only reduce the rest of the price, and the cart says so in one short line."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:781
+msgid "What this plugin isn't"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:782
+msgid "Ecopart is a display tool, not legal advice. Check the rules for your products with your éco-organisme or adviser."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:793
+msgid "Import your supplier's file and every matching product updates, with an undo button."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:794
+msgid "Set amounts by category or weight, once."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:795
+msgid "Show the total éco-participation on invoices and emails."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:796
+msgid "Offer free take-back at checkout."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:797
+msgid "See what you sold by fee type."
+msgstr ""
+
+#: includes/class-ecopart-admin.php:801
+msgid "Update hundreds of amounts in a minute"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:807
+msgid "EUR 49 a year for one store · EUR 129 a year for up to 10 stores"
+msgstr ""
+
+#: includes/class-ecopart-admin.php:808
+msgid "Get Pro"
+msgstr ""
+
+#: includes/class-ecopart-fee.php:106
+msgid "Electrical and electronic equipment (DEEE)"
+msgstr ""
+
+#: includes/class-ecopart-fee.php:107
+msgid "Furniture (ameublement)"
+msgstr ""
+
+#: includes/class-ecopart-fee.php:108
+msgid "Other"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:41
+msgid "Éco-participation (TTC)"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:41
+msgid "Éco-participation (HT)"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:75
+msgid "VAT is added at this product's own rate"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:100
+msgid "Leave empty to use the main product's amount"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:112
+msgid "The price is lower than the éco-participation. The fee is included in the price, so check this product's price."
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:145
+#: includes/class-ecopart-product-fields.php:235
+#: includes/class-ecopart-product-fields.php:288
+msgid "Fee type"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:153
+#: includes/class-ecopart-product-fields.php:245
+msgid "Reference (optional)"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:155
+msgid "Your supplier's or éco-organisme's product code, for your records"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:228
+msgid "Same as main product"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:284
+#: includes/class-ecopart-product-fields.php:328
+#: includes/class-ecopart-product-fields.php:332
+msgid "Éco-part."
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:358
+msgid "import"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:359
+msgid "category"
+msgstr ""
+
+#: includes/class-ecopart-product-fields.php:365
+msgid "per variation"
+msgstr ""

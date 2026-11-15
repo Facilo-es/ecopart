@@ -1,0 +1,7 @@
+.ecopart-line{display:block;margin-top:.3em;font-size:.85em;font-weight:400;line-height:1.35;color:color-mix(in srgb,currentColor 72%,transparent)}
+.ecopart-line.is-normal{font-size:1em}
+.ecopart-amount{white-space:nowrap}
+.ecopart-why{position:relative;display:inline-block;margin-left:.35em}
+.ecopart-why-btn{padding:0;border:0;background:none;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.ecopart-tip{position:absolute;z-index:50;left:-.5em;top:1.7em;width:min(300px,78vw);padding:.8em .95em;border-radius:8px;background:#fff;color:#2b2b2b;font-size:13px;line-height:1.45;text-align:left;box-shadow:0 10px 30px #0002,0 0 0 1px #0001}
+.ecopart-tip[hidden]{display:none}
