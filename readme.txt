@@ -2,7 +2,7 @@
 Contributors: facilo
 Tags: eco-participation, ecotaxe, deee, france, woocommerce
 Requires at least: 6.5
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
 Requires Plugins: woocommerce
 WC requires at least: 9.0
